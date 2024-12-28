@@ -1,0 +1,347 @@
+* {
+  outline: 0;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.btn-red {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: rgb(212, 22, 22);
+  --bs-btn-border-color: rgb(212, 22, 22);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: rgb(212, 22, 22);
+  --bs-btn-hover-border-color: rgb(212, 22, 22);
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: rgb(212, 22, 22);
+  --bs-btn-active-border-color: rgb(212, 22, 22);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: rgb(212, 22, 22);
+  --bs-btn-disabled-border-color: rgb(212, 22, 22);
+}
+nav {
+  height: 10vh;
+  background-color: rgb(36, 34, 34);
+  color: white;
+}
+nav h3,
+.active {
+  color: rgb(212, 22, 22);
+}
+.section1 {
+  height: 90vh;
+  background-image: url(./task-imgs/slider-02.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.op_div {
+  background-color: rgb(0, 0, 0, 0.8);
+}
+.section1 .home h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.section1 .home h2 {
+  font-size: 70px;
+  font-weight: bolder;
+  color: rgb(212, 22, 22);
+}
+.section1 .home p {
+  font-size: 25px;
+}
+.section2 {
+  height: 55vh;
+}
+.section2 .child1 .inner1 {
+  border: 8px solid rgb(36, 34, 34);
+  border-radius: 5px;
+}
+.section2 .child1 .inner2 {
+  background-image: url(./task-imgs/3\ \(2\).jpg);
+  background-position: center center;
+  background-size: cover;
+  border-radius: 5px;
+  transform: translate(15px, 15px);
+}
+.section2 .child2 p,
+.section2 .child2 .inner-text span {
+  color: #999797;
+}
+.section3,
+.section4 {
+  height: 40vh;
+  background-color: #d9d9d9;
+}
+.section3 .head h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.section3 .bottom i,
+.section6 .bottom i {
+  color: rgb(212, 22, 22);
+}
+.section4 img {
+  width: 32%;
+  height: 90%;
+  object-fit: cover;
+}
+.section5 {
+  height: 80vh;
+}
+.section5-bottom .item {
+  height: 50%;
+  padding-bottom: 10px;
+}
+.section5-bottom .item .inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section6 {
+  height: 25vh;
+  background-color: #d9d9d9;
+}
+
+.feedback-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+
+.testimonial-card {
+  background: #f5f5f5;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  margin: 2rem 0;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section {
+  position: relative;
+  width: 200px;
+  padding: 20px;
+}
+
+.diagonal-accent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-color: #ff4b6e;
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #ddd;
+  margin: 20px auto;
+  position: relative;
+  z-index: 1;
+}
+.profile-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+.content-section {
+  flex: 1;
+  padding: 2rem;
+}
+
+.content-section h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.location {
+  color: #666;
+  margin: 0 0 1rem 0;
+}
+
+.testimonial-text {
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.rating {
+  color: #ffd700;
+  font-size: 1.2rem;
+}
+
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.blog-post {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.blog-post:hover {
+    transform: translateY(-4px);
+}
+
+.post-date {
+    display: block;
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.post-title {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.post-excerpt {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.read-more {
+    color: #ff4b6e;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.read-more:hover {
+    color: #e6294a;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .container h2 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 20px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: #fff;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  textarea {
+    min-height: 150px;
+    resize: vertical;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #ff3366;
+  }
+  
+  button {
+    background: #ff3366;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  
+  button:hover {
+    background-color: #e62e5c;
+  }
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.social-links {
+    margin-bottom: 1rem;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    background-color: #444;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.social-link:hover {
+    transform: translateY(-3px);
+    background-color: #555;
+}
+
+.social-link img {
+    width: 24px;
+    height: 24px;
+    filter: invert(1);
+}
+
+.copyright {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.highlight {
+    color: #ff4444;
+}
